@@ -7,6 +7,9 @@ name = "pypi"
 django = "*"
 djangorestframework = "*"
 django-rest-knox = "*"
+pillow = "*"
+django-seed = "*"
+pyjwt = "*"
 
 [dev-packages]
 
