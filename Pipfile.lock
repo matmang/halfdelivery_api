@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "3a28f575b105c48455664ba1326309d48d6475d663e05d1b5dde614651fd60d6"
+            "sha256": "ae1b1194847c71cd075162ab67c5539c4d1b097eb6e2358311e4f1709614f532"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -102,6 +102,17 @@
             "index": "pypi",
             "version": "==3.2.6"
         },
+        "django-phonenumber-field": {
+            "extras": [
+                "phonenumberslite"
+            ],
+            "hashes": [
+                "sha256:52b2e5970133ec5ab701218b802f7ab237229854dc95fd239b7e9e77dc43731d",
+                "sha256:5547fb2b2cc690a306ba77a5038419afc8fa8298a486fb7895008e9067cc7e75"
+            ],
+            "index": "pypi",
+            "version": "==5.2.0"
+        },
         "django-rest-knox": {
             "hashes": [
                 "sha256:4a57b05b04fcccc41fcc969ad0e3f180467d7045b45003b58f5a437d6d3370d4",
@@ -128,11 +139,18 @@
         },
         "faker": {
             "hashes": [
-                "sha256:3e737576ff50cd98dfed643d6b3fd63194eca9df00e7f595960fe7da5220723d",
-                "sha256:b9e81e9da3dda3ac54189e034cfb943de576a259caeb226ccab43fcbcf6a7891"
+                "sha256:1bf71bdb9de6c87b6c70cf54b1ba6c97d1b90a64769b46b40a91794c5d488f4d",
+                "sha256:542291d690b4cd53f72ee465117b824f114c7343369df35b043606923894e123"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==8.11.0"
+            "version": "==8.12.0"
+        },
+        "phonenumberslite": {
+            "hashes": [
+                "sha256:20146ee9878cbc06b003ca6819869b8289f1cedfc9cd26ebc1628dc1603a62ad",
+                "sha256:43b3f4aaf912b796423cd3f5838f96256ddd5ebc662736a67a43c03a17587893"
+            ],
+            "version": "==8.12.30"
         },
         "pillow": {
             "hashes": [

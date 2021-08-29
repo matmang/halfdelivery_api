@@ -9,15 +9,17 @@ class UserSerializer(serializers.ModelSerializer):
         model = User
         fields = (
             "id",
-            "username",
+            "first_name",
+            "last_name",
             "email",
+            "username",
             "avatar",
             "phone_number",
             "birthday",
             "half_money",
             "password",
         )
-        read_only_fields = ("id", "avatar")
+        read_only_fields = ("id", "avatar", "half_money", "birthday")
     
     def create(self, validated_data):
         password = validated_data.get("password")

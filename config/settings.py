@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'api',
     'users',
     'jwt',
+    "phonenumber_field"
 ]
 
 MIDDLEWARE = [

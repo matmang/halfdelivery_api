@@ -10,6 +10,7 @@ django-rest-knox = "*"
 pillow = "*"
 django-seed = "*"
 pyjwt = "*"
+django-phonenumber-field = {extras = ["phonenumberslite"], version = "*"}
 
 [dev-packages]
 
