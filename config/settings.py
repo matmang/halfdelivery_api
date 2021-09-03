@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'api',
     'users',
     'jwt',
-    "phonenumber_field"
+    "phonenumber_field",
+    'stores',
 ]
 
 MIDDLEWARE = [
