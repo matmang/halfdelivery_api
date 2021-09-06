@@ -9,8 +9,8 @@ class Stores(models.Model):
     category = models.CharField(_("category"), max_length=255)
     store = models.CharField(_("store"), max_length=255)
     menu = models.CharField(_("menu"), max_length=255)
-    price = models.CharField(_("price"), max_length=255)  # ? DB 수정 필요
-    minprice = models.CharField(_("minprice"), max_length=255)  # ? DB 수정 필요
-    delivTip = models.CharField(_("delivTip"), max_length=255)  # ? DB 수정 필요
+    price = models.IntegerField(_("price"))
+    minPrice = models.IntegerField(_("minPrice"))
+    delivTip = models.IntegerField(_("delivTip"))
     expDelivTime = models.CharField(_("expDelivTime"), max_length=255)
     openingHours = models.CharField(_("openingHours"), max_length=255)

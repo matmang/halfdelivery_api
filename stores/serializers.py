@@ -11,7 +11,7 @@ class StoreSerializer(serializers.ModelSerializer):
             "store",
             "menu",
             "price",
-            "minprice",
+            "minPrice",
             "delivTip",
             "expDelivTime",
             "openingHours",
