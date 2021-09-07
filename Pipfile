@@ -7,6 +7,12 @@ name = "pypi"
 django = "*"
 djangorestframework = "*"
 django-rest-knox = "*"
+pillow = "*"
+django-seed = "*"
+pyjwt = "*"
+django-phonenumber-field = {extras = ["phonenumberslite"], version = "*"}
+requests = "*"
+django-model-utils = "*"
 
 [dev-packages]
 
