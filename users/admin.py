@@ -10,5 +10,3 @@ class UserAdmin(UserAdmin):
     )
 
     list_display = UserAdmin.list_display + ("half_money",)
-
-# Register your models here.

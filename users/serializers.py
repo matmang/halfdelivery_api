@@ -16,6 +16,7 @@ class UserSerializer(serializers.ModelSerializer):
             "avatar",
             "phone_number",
             "birthday",
+            "auth_number",
             "half_money",
             "password",
         )
