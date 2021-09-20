@@ -3,11 +3,13 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include("api.urls")),
     path("v1/users/", include("users.urls")),
     path("v1/stores/", include("stores.urls")),
+    path("chat/", include("chat.urls")),
 ]
 
 if settings.DEBUG:
