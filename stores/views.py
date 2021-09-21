@@ -7,37 +7,31 @@ from .serializers import StoreSerializer
 class StoresViewSet(ModelViewSet):
     queryset = Stores.objects.all()
     serializer_class = StoreSerializer
-    pagination_class = None
 
 
 class StoresKoreanViewSet(ModelViewSet):
     queryset = Stores.objects.filter(category="한식")
     serializer_class = StoreSerializer
-    pagination_class = None
 
 
 class StoresChineseViewSet(ModelViewSet):
     queryset = Stores.objects.filter(category="중식")
     serializer_class = StoreSerializer
-    pagination_class = None
 
 
 class StoresJapaneseViewSet(ModelViewSet):
     queryset = Stores.objects.filter(category="일식")
     serializer_class = StoreSerializer
-    pagination_class = None
 
 
 class StoresWesternViewSet(ModelViewSet):
     queryset = Stores.objects.filter(category="양식")
     serializer_class = StoreSerializer
-    pagination_class = None
 
 
 class StoresCafeViewSet(ModelViewSet):
     queryset = Stores.objects.filter(category="카페")
     serializer_class = StoreSerializer
-    pagination_class = None
 
 
 # # # ?  mixins 연습.  Using mixins: https://www.django-rest-framework.org/tutorial/3-class-based-views/#using-mixins
